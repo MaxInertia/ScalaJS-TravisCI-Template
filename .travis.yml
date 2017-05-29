@@ -1,0 +1,10 @@
+language: Scala
+scala: 2.12.2
+jdk: oraclejdk8
+
+install:
+  - . $HOME/.nvm/nvm.sh
+  - nvm install stable
+  - nvm use stable
+  - npm install
+  - npm install jsdom@9.12.0
